@@ -314,3 +314,6 @@ khi cần thay đổi sẽ phải thay đổi ở nhiều nơi gây mất thời
 -- Tablet responsive:   
     - Max-width > width
     - overflow: hidden; => đối tượng nào nằm vượt ra ngoài phạm vi thẻ cha thì bị che đi
+
+-- Mobile responsive:
+    - cài nào ưu tiên hơn thì viết ở dưới

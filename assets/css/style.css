@@ -88,6 +88,7 @@ html{
     right: 0;
     /* nổi lên cao hơn */
     z-index: 1;
+    overflow: hidden;
 }
 
 /* mục đích làm cho thẻ nav ngắn lại để đưa icon search lên */
@@ -149,10 +150,20 @@ html{
     padding: 8px 16px;
 }
 
-#header .search-btn{
+#header .search-btn,#header .mobile-menu-btn{
     float: right;
     line-height: var(--header-height);
     padding: 0 21px;
+}
+
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+    /* xuất hiện bàn tay khi di vào */
+}
+
+#header .mobile-menu-btn:hover .mobile-menu-icon{
+    color: #000;
+    /* xuất hiện bàn tay khi di vào */
 }
 
 #header .search-btn:hover{
@@ -161,9 +172,10 @@ html{
     cursor: pointer;
 }
 
-#header .search-icon{
+#header .search-icon,#header .mobile-menu-icon{
     color: #fff;
 }
+
 /* End: Header */
 
 /* Begin: Slider */

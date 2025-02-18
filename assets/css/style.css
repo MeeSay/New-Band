@@ -99,6 +99,7 @@ html{
 #nav .down-btn{
     font-size: 14px;
 }
+
 #nav > li{
     /* cùng nằm trên 1 hàng */
     display: inline-block; 
@@ -110,7 +111,7 @@ html{
     /* không có gạch chân */
     text-decoration: none;
     /* căn giữa dòng */
-    display: inline-block;
+    display: block;
     line-height: var(--header-height);
     /* giãn cách */
     padding: 0 24px;
